@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_statistics"
+                android:icon="@drawable/navigation_icon_statistic"
+                android:title="Statistiques" />
+        <item
+                android:id="@+id/nav_conseils"
+                android:icon="@drawable/navigation_icon_conseil"
+                android:title="Conseils" />
+        <item
+                android:id="@+id/nav_community"
+                android:icon="@drawable/navigation_icon_community"
+                android:title="Communauté" />
+        <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/navigation_icon_help"
+                android:title="Aide harcèlement" />
+
+        <item
+                android:id="@+id/nav_campagnes"
+                android:icon="@drawable/navigation_icon_campagne"
+                android:title="Campagnes" />
+
+        <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/navigation_icon_map"
+                android:title="Carte" />
+
+        <item
+                android:id="@+id/nav_parameter"
+                android:icon="@drawable/navigation_icon_parameter"
+                android:title="Paramètre" />
+
+        <item
+                android:id="@+id/nav_a_propos"
+                android:icon="@drawable/navigation_icon_a_propos"
+                android:title="À propos" />
+
+        <item
+                android:id="@+id/nav_myaccount"
+                android:icon="@drawable/navigation_icon_a_propos"
+                android:title="Mon compte" />
+
+
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="80dp"
+              android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Numéro à contacter : "
+            android:layout_margin="10dp"
+            />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="50dp"
+              android:text="3020"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Non au harcèlement numéro national"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="50dp"
+              android:text="0800 200 000"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="(cyber harcèlement)"
+    />
+
+
+</LinearLayout>

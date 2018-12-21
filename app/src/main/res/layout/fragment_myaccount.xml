@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/name_mock"
+              android:layout_marginLeft="10dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse e-mail"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+    />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="alfonse.lopez@gmail.com"
+              android:layout_marginLeft="10dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numéro de téléphone"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+    />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="07 70 34 04 45"
+              android:layout_marginLeft="10dp"
+    />
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enregistrer"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+    />
+
+</LinearLayout>
